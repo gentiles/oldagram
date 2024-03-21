@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.container{
+    width: 570px;
+    margin: 20px auto;
+}
+header .logo{
+    width: 100px;
+    height:0%;
+    align-items: center;
+}
+header .avatar{
+    width: 50px;
+    height:0%;
+    border-radius: 50%;
+}
+.icon-avatar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px      
+}
+hr{
+    border: 0.5px solid #EDEDED;
+}
+/* van gogh */
+.article{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    
+}
+.article img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px 
+  
+}
+.article .name{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px;
+}
+.article .location{
+    margin: 0px;
+}
+.article_hr{
+    border: 12px solid #EDEDED;
+}
+/* picture article-VanGogh */
+.poster img{
+    width: 570px;
+}
+.post-content{
+    margin-left: 10px;
+}
+.post-content img{
+    width: 30px;
+    margin: 10px 5px;
+}
+.post-content .name{
+    font-weight: bold;
+    font-size: 12px;
+}
